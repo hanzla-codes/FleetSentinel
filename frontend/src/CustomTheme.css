@@ -1,0 +1,54 @@
+
+/* Custom Ocean Command theme */
+:root {
+  --custom-bg: #06141a;
+  --custom-cyan: #28d7d0;
+  --custom-amber: #f5b84b;
+  --custom-danger: #ff647c;
+}
+html, body, #root { background: var(--custom-bg) !important; }
+.app-shell {
+  background:
+    radial-gradient(circle at 78% 0%, rgba(40,215,208,.11), transparent 30%),
+    radial-gradient(circle at 20% 80%, rgba(245,184,75,.055), transparent 28%),
+    var(--custom-bg) !important;
+}
+.sidebar { background: linear-gradient(180deg,#071a21 0%,#051117 100%) !important; border-right-color:#164653 !important; }
+.logo-area { border-bottom-color:rgba(40,215,208,.16) !important; }
+.brand-logo { border-color:rgba(40,215,208,.55) !important; background:linear-gradient(145deg,#0d3d45,#09242b) !important; box-shadow:0 0 24px rgba(40,215,208,.13) !important; }
+.brand-logo span, .nav-button.selected .nav-icon { color:var(--custom-cyan) !important; }
+.brand-copy h2, .topbar h1, .panel-header h3 { color:#e8fbff !important; }
+.brand-copy p, .breadcrumb, .sidebar-label, .section-tag, .panel-label { color:#62818b !important; }
+.nav-button:hover { background:#0d2932 !important; color:#e5fbfd !important; }
+.nav-button.selected { color:#eaffff !important; background:linear-gradient(90deg,rgba(40,215,208,.15),rgba(40,215,208,.035)) !important; box-shadow:inset 3px 0 0 var(--custom-cyan) !important; }
+.main-area { background:radial-gradient(circle at 85% 0%,rgba(40,215,208,.09),transparent 28%),var(--custom-bg) !important; }
+.topbar { background:rgba(6,20,26,.91) !important; border-bottom-color:#164653 !important; }
+.live-status { color:#63e7df !important; }
+.live-status span, .online-dot { background:var(--custom-cyan) !important; box-shadow:0 0 11px rgba(40,215,208,.75) !important; }
+.hero-status, .stat-card, .panel, .analytics-hero, .analytics-kpi, .analytics-panel {
+  background:linear-gradient(145deg,rgba(13,42,52,.92),rgba(7,25,32,.96)) !important;
+  border-color:#164653 !important;
+}
+.hero h2, .analytics-hero h2 { color:#e8fbff !important; }
+.hero h2 span, .analytics-hero h2 strong { color:var(--custom-cyan) !important; }
+.section-tag span { background:var(--custom-cyan) !important; }
+.stat-icon.blue, .stat-icon.green { color:var(--custom-cyan) !important; background:rgba(40,215,208,.10) !important; }
+.stat-icon.purple { color:#b99cff !important; background:rgba(185,156,255,.10) !important; }
+.stat-icon.red { color:var(--custom-danger) !important; background:rgba(255,100,124,.10) !important; }
+.stat-card { border-radius:14px !important; }
+.panel-action, .view-all, .map-controls button { background:#0b252e !important; border-color:#1b5260 !important; color:#86aeb7 !important; }
+.panel-action:hover, .view-all:hover { border-color:var(--custom-cyan) !important; color:#e8ffff !important; }
+.map { background:linear-gradient(rgba(25,70,78,.38) 1px,transparent 1px),linear-gradient(90deg,rgba(25,70,78,.38) 1px,transparent 1px),#071a21 !important; background-size:42px 42px !important; }
+.map-grid { background:radial-gradient(circle at 52% 46%,rgba(40,215,208,.15),transparent 35%),radial-gradient(circle at 20% 70%,rgba(245,184,75,.08),transparent 30%) !important; }
+.map-point { border-color:var(--custom-cyan) !important; background:rgba(13,91,94,.72) !important; color:#8efff8 !important; }
+.radar-center, .radar-line { background:var(--custom-cyan) !important; box-shadow:0 0 9px rgba(40,215,208,.8) !important; }
+.radar { background:radial-gradient(circle,rgba(40,215,208,.12),transparent 68%) !important; }
+.fleet-search, .fleet-controls, .fleet-full-panel { border-color:#164653 !important; }
+.fleet-filters button.active, .analytics-filters button.active { border-color:rgba(40,215,208,.5) !important; color:var(--custom-cyan) !important; background:rgba(40,215,208,.09) !important; }
+.bar-fill { background:var(--custom-cyan) !important; }
+.bar-fill.cargo { background:var(--custom-amber) !important; }
+.crisis-count, .nav-alert { background:rgba(255,100,124,.11) !important; color:#ff7c90 !important; }
+.notification { border-color:#1b5260 !important; }
+.notification b { background:var(--custom-danger) !important; }
+.operator { border-top-color:#164653 !important; }
+.avatar { background:#12404b !important; color:#b9ffff !important; }
