@@ -2,29 +2,6 @@
 
 > A real-time maritime fleet monitoring and crisis-response platform for tracking commercial cargo ships, detecting operational risks, and coordinating incident response.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://fleetsentinel-production-cd66.up.railway.app/)
-[![Backend](https://img.shields.io/badge/Backend-Railway-blue?style=for-the-badge)](https://fleetsentinel-production.up.railway.app/)
-[![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge\&logo=react\&logoColor=white)](https://react.dev/)
-[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Docker](https://img.shields.io/badge/Container-Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)](https://www.docker.com/)
-[![Railway](https://img.shields.io/badge/Deployment-Railway-purple?style=for-the-badge)](https://railway.app/)
-
----
-
-## 🌐 Live Demo
-
-### Frontend
-
-**https://fleetsentinel-production-cd66.up.railway.app/**
-
-### Backend
-
-**https://fleetsentinel-production.up.railway.app/**
-
-FleetSentinel is deployed as a full-stack application with a React frontend, FastAPI backend, REST APIs, and a real-time WebSocket communication layer.
-
----
-
 ## 📌 Overview
 
 **FleetSentinel** is a full-stack maritime fleet operations and crisis-management platform built around a live simulated fleet of **15 commercial cargo ships**.
