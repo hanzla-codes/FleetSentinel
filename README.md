@@ -678,8 +678,8 @@ FleetSentinel demonstrates practical experience with:
 
 ### Links
 
-* GitHub: https://github.com/Shahzaib1106
-* LinkedIn: https://www.linkedin.com/in/shahzaib-ahmad1105/
+* [GitHub](https://github.com/hanzla-codes/FleetSentinel)
+* [LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7510767984295075841/)
 
 ---
 
